@@ -12,8 +12,8 @@ props | Default Value | Type
 --- | --- | ---
 **fbxFile** | `Horse FBX file` | *FBX file*
 **groundTextureFile** | `Grass image` | *Texture File*
-**containerHeight** | `renders` | *window.innerHeight || document.documentElement.clientHeight || document.body.clientHeight*
-**containerWidth** | `renders` | *window.innerWidth || document.documentElement.clientWidth || document.body.clientWidth*
+**containerHeight** | *window.innerHeight || document.body.clientHeight* | *Number*
+**containerWidth** | *window.innerWidth || document.body.clientWidth* | *Number*
 **onError** | `{}` | *{}*
 
 
