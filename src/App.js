@@ -7,7 +7,7 @@ import Preview3d from './pages/PreviewPage';
 
 function App() {
   return (
-    <BrowserRouter basename={process.env.REACT_APP_ROUTER_BASE || ''}>
+    <BrowserRouter>
       <Switch>
         <Route path="/" component={Preview3d} exact />
       </Switch>
