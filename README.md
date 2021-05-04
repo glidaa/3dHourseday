@@ -1,12 +1,27 @@
 # Three Preview Component
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Using React and threeJS.
 
 ## Initial Instructions
 
 After cloning the repository, make sure to run `yarn` or `npm install` before running other npm/yarn scripts.
 
-## Available Scripts
+## Props
+
+props | Default Value | Type
+--- | --- | ---
+**fbxFile** | `Horse FBX file` | *FBX file*
+**groundTextureFile** | `Grass image` | *Texture File*
+**containerHeight** | `renders` | *window.innerHeight || document.documentElement.clientHeight || document.body.clientHeight*
+**containerWidth** | `renders` | *window.innerWidth || document.documentElement.clientWidth || document.body.clientWidth*
+**onError** | `{}` | *{}*
+
+
+
+
+
+
+
 
 In the project directory, you can run:
 
